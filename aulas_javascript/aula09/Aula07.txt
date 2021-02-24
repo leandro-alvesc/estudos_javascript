@@ -1,0 +1,32 @@
+Entendendo o DOM
+
+Document
+Object
+Model
+
+É basicamente um conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do website.
+
+Árvore DOM
+Começa da raiz (window), que é a janela do navegador, e se divide entre os outros objetos como exemplificado abaixo (exemplo gráfico melhor detalhado na pasta da aula:
+
+		window
+      /            |            \
+  location      document      history
+		   |
+		  html
+		/	\
+	      head      body
+	/ 	|     / / \ \
+       meta    title / /   \ \
+		    h1 p   p  div
+			   |
+		 	 strong
+
+Selecionando
+por Marca		// getElementsByTagName()
+por ID			// getElementById()
+por Nome		// getElementsByName()
+por Classe		// getElementsByClassName()
+por Seletor		// querySelector()	// querySelectorAll()
+
+querySelector() é a forma mais recente, sendo o querySelectorAll() no plural.

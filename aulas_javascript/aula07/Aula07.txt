@@ -1,0 +1,41 @@
+Operadores
+- aritméticos <
+- atribuição <
+- relacionais
+- lógicos
+- ternário
+
+
+
+ARITMÉTICOS
+5 + 2 = 7 
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5		// divisor real
+5 % 2 = 1		// resto da divisão inteira (número que sobra antes de precisar usar vírgula)
+5 ** 2 = 25		// potência
+Utilizado para fazer cálculos.
+Os operadores seguem a lógica da matemática, ex: 5+3/2 = 6.5
+Outros exemplos na pasta da aula.
+
+Ordem de Precedência dos operadores aritméticos:
+()
+**
+* / %
++ -
+
+___________________________________________________________________________________________________________________
+
+ATRIBUIÇÃO
+Operadores aritméticos com uso de variáveis.
+Simples - exemplo na pasta da aula
+Auto-atribuição - exemplo na pasta da aula
+
+
+INCREMENTO
+Para somar ou subtrair 1, pode-se utilizar apenas x++ ou x--
+Se o ++ ou -- vier antes da variável ele faz o pré-incremento, exemplo na pasta da aula.
+
+var x = 5
+x = x + 1	x++
+x = x - 1	x--

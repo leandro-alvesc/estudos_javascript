@@ -1,0 +1,24 @@
+Repetições (cont.)
+
+Estrutura de repetição com variável de controle
+Trabalha em 3 partes, na primeira passagem faz a inicialização e teste, e enquanto ele volta para a repetição faz o incremento.
+ex:
+
+for (inicio ; teste ; incr) {
+
+}
+
+
+____________________________-
+var c = 1;
+while (c <= 10) {
+	bloco
+	c++
+}
+
+para escrever esse mesmo código na estrutura de "for", utilizamos:
+
+for (var c = 1;c <= 10;c++) {
+	bloco
+}
+

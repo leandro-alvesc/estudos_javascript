@@ -1,0 +1,27 @@
+// nos exercícios: 
+- comentario em html, css e javascript
+- uso de variável e concatenação ('frase' + var)
+- explicação sobre adição e concatenação
+- conversão de string para number - Number(n)
+- conversão de número para string - String(n)
+
+
+Formatando Strings
+var s = 'JavaScript'
+'Eu estou aprendendo s' 	// não faz interpolação
+'Eu estou aprendendo ' + s 	// usa concatenação
+`Eu estou aprendendo ${s}`	// usa template string
+Para usar Template String precisa usar crase em vez de aspas, juntamente com o Place Holder (${n}).
+
+s.length			// quantos caracteres a string tem
+s.toUpperCase()			// tudo para letras MAIÚSCULAS
+s.toLowerCase()			// tudo para minúsculas
+
+
+Formatando Números
+n.toFixed(2) 								// Para 2 números decimais
+n.toFixed(2).replace ('.', ',')						// 2 números decimais e trocar . por ,
+n.toLocaleString('pt-BR, {style: 'currency', currency: 'BRL'})		// Mostrar como moeda (Reais)
+
+
+Exemplos nos arquivos da aula.

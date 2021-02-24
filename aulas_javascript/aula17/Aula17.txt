@@ -1,0 +1,35 @@
+Próximos Passos
+
+Até aqui:
+- fundamentos
+- variáveis e dados
+- operadores
+- condições
+- repetições
+- arrays
+- functions
+- DOM
+
+Daqui pra frente:
+
+- curso HTML5 e CSS
+- estudar functions (arrow functions, callbacks, funções anônimas, IIFE, javascript funcional)
+- objetos (curso de orientação à objeto no curso em vídeo - porém é em java e php)
+- modularização
+- RegEX - expressões regulares
+- JSON - estrutura de objeto para transmitir dados e salvar dados
+- AJAX - ex: google sem proxima pagina
+- NodeJS - rodar script no servidor
+
+__________________________________________________________________________
+Introdução à objeto
+
+No array utilizamos 'let num = [5, 8, 4]', para objetos podemos utilizar chaves, exemplo:
+let amigo = {
+    nome:'José',    //atributo com o valor
+    sexo:'M',
+    peso:'85.4',
+    engordar(p){}   //pode criar um item com uma função dentro
+}
+Exemplo também na pasta.
+

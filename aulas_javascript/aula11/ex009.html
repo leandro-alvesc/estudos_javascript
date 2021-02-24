@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUAL TUA NACIONALIDADE</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+        input {
+            font: normal 10pt Arial;
+        }
+        div#res {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fala ai!</h1>
+    De que país você é?? <input type="text" name="nac" id="nac">
+    <input type="button" value="É esse!" name="resul" id="resul">
+    <div id="res">
+        O resultado irá aparecer aqui!
+    </div>
+    <script>
+        resul.addEventListener('click', resultado);
+        function resultado() {
+            var nactxt = document.querySelector('input#nac');
+            var res = document.querySelector('div#res');
+            var val = (nactxt.value)
+            if (val == 'Brasil') {
+                res.innerHTML = `<p>Você é <strong>brasileiro!</strong></p>`;
+            } else {
+                res.innerHTML = `<p>Você é <strong>estrangeiro!</strong></p>`;
+            }
+        }
+    </script>
+</body>
+</html>

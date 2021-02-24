@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background: rgb(114, 72, 153);
+            color: rgb(241, 206, 206);
+            font: normal 18pt Arial;            
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div> <!-- id="msg" vai atribuir um id ao div -->
+    <script>
+        var corpo = window.document.body;
+        // atribui var corpo ao body
+        var p1 = window.document.getElementsByTagName('p')[1];
+        // para [0]: vai selecionar o primeiro paragráfo (p), para [1] o segundo e assim por diante
+        
+        window.document.write('Está escrito assim: ' + p1.innerText + '</br>');
+        // p1.innerText mostra o valor da var p1, que no caso está como o primeiro parágrafo
+        p1.style.color = 'blue';
+        // muda a cor da variável
+        corpo.style.background = 'black';
+        // muda a cor da var corpo, que recebe body
+        window.document.write('</br>' + p1.innerHTML);
+        // p1.innerHTML mantém as configurações do HTML, ex: <strong></strong>
+        /*
+        var d = window.document.getElementById('msg');
+            ^ atribui a var d ao id (div), como 'Element' está no singular não é necessário o colchete
+        d.style.background = 'green';
+            ^ muda o estilo do background da var d
+        d.innerText = 'Estou aguardando...'
+            ^ muda o texto da variável 
+        window.document.getElementById('msg').innerText = 'Olá';
+            ^ faz a mesma função do anterior, porém sem a variável
+        */
+       var d = window.document.querySelector('div#msg'); 
+       // selecionar por Seletor, para id, utiliza-se '#', quando é class "."
+       d.style.color = 'red';
+
+       
+    </script>
+</body>
+</html>

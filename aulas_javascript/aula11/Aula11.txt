@@ -1,0 +1,28 @@
+Condições
+
+Desvio condicional: quando existe duas ou mais condições dentro da execução
+
+if (condição) {
+
+true
+
+} else {
+
+false
+
+}
+
+
+Tipos de Condição
+- Condição simples
+if (condição) {
+true
+}
+
+- Condição composta
+if (condição) {
+true
+} else {
+false
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background: rgb(113, 182, 113);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area'); 
+        // pode ser só document.getElementById
+        /* 
+        não é a melhor coisa a se fazer colocar a variável para fora
+        porém a outra função não pega a variável se não estiver no escopo maior
+        */
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+
+        function clicar() {
+            // var a = window.document.getElementById('area');
+            a.innerText = 'Boa!';
+            a.style.background = 'red';
+        }
+        function entrar() {
+            a.innerText = 'Opa!';
+        }
+        function sair() {
+            a.innerText = 'Eh nois!';
+            a.style.background = 'rgb(113, 182, 113)';
+        }
+    </script>
+</body>
+</html>

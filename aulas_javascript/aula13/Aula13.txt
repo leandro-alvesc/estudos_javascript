@@ -1,0 +1,42 @@
+Repetições em JavaScript
+exeplo do esquema na pasta
+
+Estrutura de repetição com teste lógico no início, ou seja, ele faz o teste e depois executa.
+while (condição) {
+
+
+
+}
+
+
+exemplo, comer pizza:
+em vez de usar varios comandos desnecessários, como:
+
+function comerPizza() {
+	comerFatia();
+	comerFatia();
+	comerFatia();
+	comerFatia();
+	comerFatia();
+	comerFatia();
+	comerFatia();
+	comerFatia();
+}
+
+
+utiliza-se o while (enquanto):
+
+function comerPizza() {
+	while (temFatia()) {
+		comerFatia();
+	}
+}
+
+
+
+_________________________________________________
+Estrutura de repetição com teste lógico no final, ou seja, após a execução.
+
+do {
+    bloco1
+} while (condição);

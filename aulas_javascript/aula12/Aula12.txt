@@ -1,0 +1,34 @@
+Condições Aninhadas
+
+Colocar outras condições dentro da condição composta, ficando uma condição dentro da outra. (else if)
+ex:
+if (cond1) {
+	bloco1
+} else {
+     if (cond2) {
+	   bloco2
+     } else {
+	   bloco3
+     }
+]
+
+____________________________________________________________________________
+
+Condição Múltipla
+Imagem representando na pasta da aula.
+O switch serve mais para situações pontuais, ele aceita números inteiros e strings.
+
+switch (expressão) {
+    case valor 1:
+	bloco1
+	break				// no caso de uso da expressão switch o break depois do bloco é obrigatório!
+    case valor 2:
+	bloco2
+	break				// o break vai fazer com que ele continue executando, dando problemas
+    case valor 3:
+	bloco3
+	break
+    default:
+	bloco4
+	break
+}

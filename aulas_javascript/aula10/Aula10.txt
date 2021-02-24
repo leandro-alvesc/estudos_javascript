@@ -1,0 +1,25 @@
+Eventos DOM
+Exemplo: 
+<DIV> 
+São eventos que podem acontecer com a div, por exemplo, como mouseenter, mousemove, mousedown, mouseup, click, mouseout, etc.
+Lista de eventos em: https://developer.mozilla.org/pt-BR/docs/Web/Events
+Pode ser executado no html, como no exemplo:
+	<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        	Interaja
+    	</div>
+Ou pode ser executado diretamente no JavaScript, como:
+ 	a.addEventListener('click', enter);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+        
+
+
+
+Funções
+Conjunto de código em linhas que vão ser executadas quando o evento ocorrer.
+Os códigos que vão ocorrer, possuindo várias linhas, são chamados de bloco, os blocos são delimitados da seguinte maneira:
+function ação(parametros) {
+
+ }
+exemplo no exercício
+

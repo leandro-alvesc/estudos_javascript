@@ -1,0 +1,25 @@
+Funções em JS
+Toda função pode ter uma chamada, um parâmetro (ou conjunto de parâmetros), uma ação e um retorno.
+
+Funções são ações executadas assim que são chamadas ou em decorrência de algum evento.
+Uma função pode receber parâmetros e retornar um resultado.
+
+function ação(param) { //parametro formal
+    bloco;
+    return res; //retorno
+}
+
+ação(5);    //chamada e (parametro real)
+
+ex:
+// verificar se é par ou impar, imagem na pasta
+
+function parimp(n) {
+    if (n % 2 == 0) {
+        return 'par';
+    } else {
+        return 'impar';
+    }
+}
+
+let res = parimp(11); 

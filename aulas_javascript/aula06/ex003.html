@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programinha</title>
+    <style>
+        body {
+            background-color: rgb(158, 158, 168);
+            color: white; /* Comentario */
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(182, 182, 79);
+        }
+        p {
+            color: rgb(172, 112, 101);
+        }
+    </style>
+</head>
+<body>
+   <h1> Olá, mundo!</h1>
+   <!-- Comentario -->
+   <p>Cabô a maldição.</p>
+   <script>
+      /* 
+      var n1 = window.prompt('Diz um número!'); 
+      // window.prompt transforma sempre em string
+      var n2 = window.prompt('Outro agr!'); 
+      
+      // precisamos então converter string em number
+     
+      // Number.parseInt(n) - ou somente parseInt(n) - para inteiro (numeros inteiros)
+      // Number.parseFloat(n) - ou somente parseFloat(n) - para real (números com casas decimais)
+      // Pode-se utilizar somente o Number (o javascript vai interpretar se é inteiro ou real)
+      // Number é mais recente, está nas versões mais novas do ECMAScript
+      // String(n) - ou n.toString() - para converter de número para String
+      */
+
+      var n1 = Number(window.prompt('Diz um número!'));
+      var n2 = Number(window.prompt('Outro agr!')); 
+
+      var s = n1 + n2;
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ` + String(s)); // Exemplo de conversão para string e uso de Template String
+      // (number + number) o + serve para adição
+      // (string + string) o + serve para concatenação
+      
+   </script>
+</body>
+</html>
